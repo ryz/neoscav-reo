@@ -55,6 +55,7 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cueMetalSaucePanPickUp,cueMetalSaucePanPutDown1</column>
         </table>
+        <!--big sleeping bag-->
         <table name="itemtypes">
             <column name="id">154</column>
             <column name="nGroupID">14</column>
@@ -94,6 +95,7 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cueCloth,cueSleepingBag1PutdownShort</column>
         </table>
+        <!--small sleeping bag-->
         <table name="itemtypes">
             <column name="id">161</column>
             <column name="nGroupID">14</column>
@@ -133,11 +135,50 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cueCloth,cueSleepingBag1PutdownShort</column>
         </table>
+        <table name="itemtypes">
+            <column name="id">312</column>
+            <column name="nGroupID">78</column>
+            <column name="nSubgroupID">0</column>
+            <column name="strName">clothes (torso)</column>
+            <column name="strDesc">dogman fur coat</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">1</column>
+            <column name="vImageList">ItmFurDogmanWorn.png,ItmFurDogmanStored.png</column>
+            <column name="vSpriteList">11=CreItmDogmanFur.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">2</column>
+            <column name="fMonetaryValue">225</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0001</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">3,3</column>
+            <column name="aEquipConditions">11=38,11=408</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities"></column>
+            <column name="vEquipSlots">11=0=0,21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">1,17,20,36,37,46,48,50,73</column>
+            <column name="aContentIDs"></column>
+            <column name="nFormatID">3</column>
+            <column name="nTreasureID">0</column>
+            <column name="nComponentID">3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">2</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">cueCloth,cueClothesEnd</column>
+        </table>
         <table name="treasuretable">
           <!--Cryo Lab loottable (first hex)-->
             <column name="id">164</column>
             <column name="strName">cryo idle loot</column>
-            <column name="aTreasures">86.6x1.0x5-9,reo:2.1x1x1-1,reo:1.1x1x1-1,32.0x1x1,39.0x1x1,98.2x1x1,97.0x1x1,14.0x1x1,14.1x1x1</column>
+            <column name="aTreasures">86.6x1.0x5-9,reo:2.1x1x1-1,reo:1.1x1x1-1,32.0x1x1,39.0x1x1,98.2x1x1,97.0x1x1,14.0x1x1,14.1x1x1,78.0x1x1</column>
             <column name="bNested">0</column>
             <column name="bSuppress">0</column>
             <column name="bIdentify">0</column>

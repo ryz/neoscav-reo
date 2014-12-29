@@ -15,6 +15,46 @@ Overwrite "reoZero" File
     - Database: 'neogame'
     -->
     <database name="neogame">
+        <!--Metal Sauce Pan Overwrite-->
+        <table name="itemtypes">
+            <column name="id">104</column>
+            <column name="nGroupID">32</column>
+            <column name="nSubgroupID">0</column>
+            <column name="strName">metal pot</column>
+            <column name="strDesc">metal sauce pan</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">1</column>
+            <column name="vImageList">ItmSteelPot.png</column>
+            <column name="vSpriteList">20=CreItmPotL.png,21=CreItmPotR.png</column>
+            <column name="vImageUsage">0,0,0,0,0,0</column>
+            <column name="fWeight">1.36</column>
+            <column name="fMonetaryValue">5</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0</column>
+            <column name="fDegradePerUse">0.01000</column>
+            <column name="vDegradeTreasureIDs">3,3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities"></column>
+            <column name="vEquipSlots">21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">8,9,10,17,28,48,50,87</column>
+            <column name="aContentIDs"></column>
+            <column name="nFormatID">3</column>
+            <column name="nTreasureID">3</column>
+            <column name="nComponentID">3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes">20=15,21=15</column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">cueMetalSaucePanPickUp,cueMetalSaucePanPutDown1</column>
+        </table>
         <table name="treasuretable">
             <column name="id">164</column>
             <column name="strName">cryo idle loot</column>

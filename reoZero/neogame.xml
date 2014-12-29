@@ -55,6 +55,46 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cuePlasticBottlePickup,cuePlasticBottlePutdown</column>
         </table>
+        <!--cola bottle-->
+        <table name="itemtypes">
+            <column name="id">136</column>
+            <column name="nGroupID">11</column>
+            <column name="nSubgroupID">1</column>
+            <column name="strName">bottle</column>
+            <column name="strDesc">&quot;Corn-a-Cola&quot; plastic bottle</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">1</column>
+            <column name="vImageList">ItmCornaColaFull.png,ItmCornaCola.png</column>
+            <column name="vSpriteList"></column>
+            <column name="vImageUsage">1,0,1,0,1,0</column>
+            <column name="fWeight">0.05</column>
+            <column name="fMonetaryValue">1</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">3,3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">2x3</column>
+            <column name="vEquipSlots">20,21</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">8,9,16,28,48,50,87</column>
+            <column name="aContentIDs">1,2,13</column>
+            <column name="nFormatID">3</column>
+            <column name="nTreasureID">78</column>
+            <column name="nComponentID">3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">cuePlasticBottlePickup,cuePlasticBottlePutdown</column>
+        </table>
         <!--Metal Sauce Pan Overwrite-->
         <table name="itemtypes">
             <column name="id">104</column>

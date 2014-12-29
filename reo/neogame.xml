@@ -17,6 +17,7 @@ New Data "reo" Mod File
     <database name="neogame">
         <!-- Table itemtypes -->
         <table name="itemtypes">
+            <!--Testbag-->
             <column name="id">1</column>
             <column name="nGroupID">1</column>
             <column name="nSubgroupID">1</column>
@@ -56,6 +57,7 @@ New Data "reo" Mod File
             <column name="aSounds">0:cueBagOpenedTrimmed,0:cueBagPlasticExpandingTrimmed</column>
         </table>
         <table name="itemtypes">
+            <!--Testbag2-->
             <column name="id">2</column>
             <column name="nGroupID">2</column>
             <column name="nSubgroupID">1</column>

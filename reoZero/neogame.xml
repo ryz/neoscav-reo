@@ -31,9 +31,9 @@ Overwrite "reoZero" File
             <column name="fMonetaryValue">5</column>
             <column name="fMonetaryValueAlt">0</column>
             <column name="fDurability">1</column>
-            <column name="fDegradePerHour">0</column>
-            <column name="fEquipDegradePerHour">0</column>
-            <column name="fDegradePerUse">0.01000</column>
+            <column name="fDegradePerHour">0.0007</column>
+            <column name="fEquipDegradePerHour">0.0007</column>
+            <column name="fDegradePerUse">0.00100</column>
             <column name="vDegradeTreasureIDs">3,3</column>
             <column name="aEquipConditions"></column>
             <column name="aPossessConditions"></column>
@@ -70,9 +70,9 @@ Overwrite "reoZero" File
             <column name="fMonetaryValue">35</column>
             <column name="fMonetaryValueAlt">0</column>
             <column name="fDurability">1</column>
-            <column name="fDegradePerHour">0</column>
-            <column name="fEquipDegradePerHour">0</column>
-            <column name="fDegradePerUse">0</column>
+            <column name="fDegradePerHour">0.0007</column>
+            <column name="fEquipDegradePerHour">0.0007</column>
+            <column name="fDegradePerUse">0.001</column>
             <column name="vDegradeTreasureIDs">11,3</column>
             <column name="aEquipConditions"></column>
             <column name="aPossessConditions">200=107,208=107</column>

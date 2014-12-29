@@ -105,7 +105,7 @@ Overwrite "reoZero" File
             <column name="vImageList">ItmMummySack.png</column>
             <column name="vSpriteList"></column>
             <column name="vImageUsage">0,0,0,0,0,0</column>
-            <column name="fWeight">1.36</column>
+            <column name="fWeight">1.78</column>
             <column name="fMonetaryValue">80</column>
             <column name="fMonetaryValueAlt">0</column>
             <column name="fDurability">1</column>

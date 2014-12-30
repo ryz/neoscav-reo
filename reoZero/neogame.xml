@@ -786,7 +786,7 @@ Overwrite "reoZero" File
           <!--Cryo Lab loottable (first hex)-->
             <column name="id">164</column>
             <column name="strName">cryo idle loot</column>
-            <column name="aTreasures">86.6x1.0x5-9,reo:2.1x1x1-1,reo:1.1x1x1-1,32.0x1x1,39.0x1x1,98.2x1x1,97.0x1x1,14.0x1x1,14.1x1x1,78.0x1x1</column>
+            <column name="aTreasures">86.6x1.0x5-9,reo:2.1x1x1-1,reo:1.1x1x1-1,32.0x1x1,39.0x1x1,98.2x1x1,97.0x1x1,14.0x1x1,14.1x1x1,78.0x1x1,11.4x1x1,11.1x1x1</column>
             <column name="bNested">0</column>
             <column name="bSuppress">0</column>
             <column name="bIdentify">0</column>

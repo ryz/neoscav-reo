@@ -501,6 +501,46 @@ Overwrite "reoZero" File
         <!--coats end-->
         <!--torso end-->
         <!--footwear start-->
+        <!--makeshift shoe-->
+        <table name="itemtypes">
+            <column name="id">532</column>
+            <column name="nGroupID">50</column>
+            <column name="nSubgroupID">6</column>
+            <column name="strName">clothes (shoes)</column>
+            <column name="strDesc">makeshift rag shoe</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">1</column>
+            <column name="vImageList">ItmShoeRagWorn.png,ItmShoeRag.png</column>
+            <column name="vSpriteList">2=CreItmShoeRagL.png,3=CreItmShoeRagR.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">0.55</column>
+            <column name="fMonetaryValue">4</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.02</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">3,3</column>
+            <column name="aEquipConditions">2=21,2=-210,2=715,3=22,3=-210,3=715</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities"></column>
+            <column name="vEquipSlots">2=0=0,3=0=0,20,21</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">16,28,37,48,50,84</column>
+            <column name="aContentIDs"></column>
+            <column name="nFormatID">3</column>
+            <column name="nTreasureID">0</column>
+            <column name="nComponentID">759</column>
+            <column name="bMirrored">1</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">cueShoeDrop2,cueShoeDrop3</column>
+        </table>
         <!--pack boots-->
         <table name="itemtypes">
             <column name="id">5</column>

@@ -33,8 +33,8 @@ Overwrite "reoZero" File
             <column name="fMonetaryValue">0.5</column>
             <column name="fMonetaryValueAlt">0</column>
             <column name="fDurability">1</column>
-            <column name="fDegradePerHour">0</column>
-            <column name="fEquipDegradePerHour">0.007</column>
+            <column name="fDegradePerHour">0.0008</column>
+            <column name="fEquipDegradePerHour">0.008</column>
             <column name="fDegradePerUse">0</column>
             <column name="vDegradeTreasureIDs">3,3</column>
             <column name="aEquipConditions"></column>

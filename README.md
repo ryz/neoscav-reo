@@ -69,7 +69,7 @@ To accomplish this in REO, tasks I want to achieve are listed here, roughly orde
 - [ ] Relocate the Junk Mart/Last Canteen out DMC to complicate a "sedentary playstyle"
 - [ ] Add more services in inner DMC/the sprawl
 - [ ] Adding new items (Low priority, as most of the folks that mod Neo Scavenger add cool new items)
-- [ ] ~~Be able to identify bottle contents (liquids, parts) at a glance~~ Not possible. Would require major rework to the nature of the game engine's architecture
+- [ ] ~~Be able to identify bottle contents (liquids, parts) at a glance~~ Not possible currently. Would require major rework due to the nature of the game engine's architecture
   - [x] Modder Banjo came up with a clever workaround: [Bottle Label Mod](http://bluebottlegames.com/main/node/4038)
 - [ ] Other unformulated tweaks and improvements
 

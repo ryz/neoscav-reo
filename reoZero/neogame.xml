@@ -379,6 +379,46 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cuePlasticBottlePickup,cuePlasticBottlePutdown</column>
         </table>
+        <!--whiskey bottle, made of glass-->
+        <table name="itemtypes">
+            <column name="id">205</column>
+            <column name="nGroupID">11</column>
+            <column name="nSubgroupID">2</column>
+            <column name="strName">bottle</column>
+            <column name="strDesc">&quot;Wolverine Black&quot; whiskey bottle</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">1</column>
+            <column name="vImageList">ItmWhiskeyFull.png,ItmWhiskey.png</column>
+            <column name="vSpriteList">20=CreItmBrokenBottleL.png,21=CreItmBrokenBottleR.png</column>
+            <column name="vImageUsage">1,0,1,0,1,0</column>
+            <column name="fWeight">0.58</column>
+            <column name="fMonetaryValue">1.5</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0</column>
+            <column name="fDegradePerUse">1</column>
+            <column name="vDegradeTreasureIDs">3,370</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">2x3</column>
+            <column name="vEquipSlots">20,21</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">8,9,10,16,28,48,50,58,87,106</column>
+            <column name="aContentIDs">1,2,13</column>
+            <column name="nFormatID">3</column>
+            <column name="nTreasureID">143</column>
+            <column name="nComponentID">3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes">20=19,21=19</column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">cueWhiskeyBottlePutDown1,cueWhiskeyBottlePutDown2</column>
+        </table>
         <!--bottles end }}}-->
         <!--clothing/wearables start {{{-->
         <!--torso start {{{-->

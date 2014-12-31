@@ -15,8 +15,8 @@ Overwrite "reoZero" File
     - Database: 'neogame'
     -->
     <database name="neogame">
-    <!--items start-->
-      <!--bags start-->
+    <!--itemtypes start {{{-->
+      <!--bags start (5) {{{-->
         <!--plastic bag-->
         <table name="itemtypes">
             <column name="id">1</column>
@@ -297,7 +297,8 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cueBackPackPickup,cueBackPackPutdown</column>
         </table>
-      <!--bags end-->
+        <!--bags end }}}-->
+        <!--bottles start (11) {{{-->
         <!--water bottle-->
         <table name="itemtypes">
             <column name="id">35</column>
@@ -378,9 +379,10 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cuePlasticBottlePickup,cuePlasticBottlePutdown</column>
         </table>
-    <!--clothing/wearables start-->
-      <!--torso start-->
-        <!--coats start-->
+        <!--bottles end }}}-->
+        <!--clothing/wearables start {{{-->
+        <!--torso start {{{-->
+        <!--coats start (78) {{{-->
         <table name="itemtypes">
             <column name="id">107</column>
             <column name="nGroupID">78</column>
@@ -498,9 +500,9 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cueCloth,cueClothesEnd</column>
         </table>
-        <!--coats end-->
-        <!--torso end-->
-        <!--footwear start-->
+        <!--coats end (78) }}}-->
+        <!--torso end }}}-->
+        <!--footwear (50) start {{{-->
         <!--makeshift shoe-->
         <table name="itemtypes">
             <column name="id">532</column>
@@ -699,9 +701,10 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cueShoeDrop2,cueShoeDrop3</column>
         </table>
-        <!--footwear end-->
-        <!--clothing/wearables end-->
-        <!--Metal Sauce Pan Overwrite-->
+        <!--footwear end }}}-->
+        <!--clothing/wearables end }}}-->
+        <!--pans and cans (32) start {{{-->
+        <!--metal pot-->
         <table name="itemtypes">
             <column name="id">104</column>
             <column name="nGroupID">32</column>
@@ -741,6 +744,8 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cueMetalSaucePanPickUp,cueMetalSaucePanPutDown1</column>
         </table>
+        <!--pans and cans (32) end }}}-->
+        <!--sleeping bags / bed rolls (14) {{{-->
         <!--big sleeping bag-->
         <table name="itemtypes">
             <column name="id">154</column>
@@ -821,7 +826,9 @@ Overwrite "reoZero" File
             <column name="aSwitchIDs"></column>
             <column name="aSounds">cueCloth,cueSleepingBag1PutdownShort</column>
         </table>
-        <!--items end-->
+        <!--sleeping bags / bed rolls (14) end }}}-->
+        <!--itemtypes end }}}-->
+      <!--treasuretables start {{{-->
         <table name="treasuretable">
           <!--Cryo Lab loottable (first hex)-->
             <column name="id">164</column>
@@ -831,5 +838,6 @@ Overwrite "reoZero" File
             <column name="bSuppress">0</column>
             <column name="bIdentify">0</column>
         </table>
+        <!--treasure tables end }}}-->
     </database>
 </pma_xml_export>

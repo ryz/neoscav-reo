@@ -6,6 +6,7 @@ Scavenger](http://bluebottlegames.com/main/node/2) mod.
 This mod aims to make Neo Scavenger harder and more *fun* not necessarily more *realistic*, especially around the late- and endgame.
 You could call it the missing "Hardcore mode".
 
+
 ## Current Status ##
 
 I'm currently working on the rebalancing of item degradation values, with a focus on clothing/wearables and essential survival items.
